@@ -30,7 +30,7 @@ class OrdersController extends Controller
             Order::create([
                 'order_id' => $orderId,
                 'user_id' => $customer->id,
-                'pizza_id' => $order->pizza->id
+                'pizza_id' => $order['pizza']['id']
             ]);
         }
         

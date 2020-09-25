@@ -21,6 +21,6 @@ Route::get('pizzas', 'PizzasController')->name('pizza.index');
 
 Route::get('currencies', 'CurrenciesController')->name('currencies');
 
-Route::middleware('cors')->group(function () {
-	Route::post('place-order', 'OrdersController')->name('orders');
-});
+Route::middleware('cors')->post('place-order', 'OrdersController')->name('orders');
+
+Route::middleware('cors')->post('contact', 'ContactController')->name('contact');
