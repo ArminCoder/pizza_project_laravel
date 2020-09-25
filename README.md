@@ -1,6 +1,6 @@
 ## Project Setup
 
-<p>After pullin the project on your local, cd into the folder and run the following commands:</p>
+<p>After pulling the project on your local, cd into the folder and run the following commands:</p>
 
 <strong>composer install</strong>
 
